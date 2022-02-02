@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css-mysite.css">
+    <title>JS Documentation</title>
+</head>
+
+<body>
+
+    <head>
+        <div class="main-body">
+
+            <nav id="navbar">
+                <header>JS Documentation</header>
+                <a href="#Introduction" class="nav-link">Introduction</a>
+                <a href="#Javascript" class="nav-link">Javascript</a>
+                <a href="#Variables" class="nav-link">Variables</a>
+                <a href="#Scope" class="nav-link">Scope</a>
+                <a href="#Functions" class="nav-link">Functions</a>
+            </nav>
+    </head>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+
+            <header>Introduction</header>
+
+            <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with
+                first-class functions. While it is most well-known as the scripting language for Web pages, many
+                non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a
+                prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented,
+                imperative, and declarative (e.g. functional programming) styles.</p>
+            <p>Do not confuse JavaScript with the Java programming language. Both "Java" and "JavaScript" are trademarks
+                or registered trademarks of Oracle in the U.S. and other countries. However, the two programming
+                languages have very different syntax, semantics, and use.</p>
+        </section>
+        <section class="main-section" id="Javascript">
+            <header>Javascript</header>
+            <p>JavaScript is a scripting or programming language that allows you to implement complex features on web
+                pages — every time a web page does more than just sit there and display static information for you to
+                look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video
+                jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer
+                cake of standard web technologies, two of which (HTML and CSS). </p>
+            <p>JavaScript is a scripting language that enables you to create dynamically updating content, control
+                multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing
+                what you can achieve with a few lines of JavaScript code.)</p>
+            <ul>
+                <li>Variables</li>
+                <li>Functions</li>
+                <li>Control Flow</li>
+                <li>Promises</li>
+                <li>The Strange Parts</li>
+
+            </ul>
+        </section>
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p> Variable means anything that can vary. In JavaScript, a variable stores the data value that can be
+                changed later on.
+
+                Use the reserved keyword <code>var</code> to declare a variable in JavaScript. </p>
+            <p> A variable must have a unique name.</p>
+        </section>
+        <section class="main-section" id="Scope">
+            <header>Scope</header>
+            <p>Scope in JavaScript refers to the current context of code, which determines the accessibility of
+                variables to JavaScript. The two types of scope are local and global:
+            <ul>
+                <li>Global variables are those declared outside of a block</li>
+                <li>Local variables are those declared inside of a block</li>
+            </ul>
+            </p>
+            <p>We learned that variables can be reassigned. Using local scope, we can actually create new variables with
+                the same name as a variable in an outer scope without changing or reassigning the original value.</p>
+
+            <em>Syntax:</em>
+
+            <code>var [];
+        
+          var  = ;
+          </code>
+            <p>Example: Variable Declaration</p>
+
+            <code>var msg; // declaring a variable without assigning a value</code>
+            <p> Example: Variable Initialization</p>
+
+            <code>var msg; 
+        msg = "Hello JavaScript!"; // assigned a string value
+          alert(msg); // access a variable</code>
+
+            <code>//the following declares and assign a numeric value
+        var num = 100; 
+          var hundred = num;  // assigned a variable to varible</code>
+        </section>
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <p> JavaScript provides functions similar to most of the scripting and programming languages.
+
+                In JavaScript, a function allows you to define a block of code, give it a name and then execute it as
+                many times as you want.
+
+            </p>
+            <p>A JavaScript function can be defined using function keyword. </p>
+            <p>A function can have one or more parameters, which will be supplied by the calling code and can be used
+                inside a function. JavaScript is a dynamic type scripting language, so a function parameter can have
+                value of any data type. For example: </p>
+            <code>function ShowMessage(firstName, lastName) {
+            alert("Hello " + firstName + " " + lastName);
+            }
+        
+            ShowMessage("Steve", "Jobs");
+            ShowMessage("Bill", "Gates");
+            ShowMessage(100, 200);
+          </code>
+        </section>
+    </main>
+
+    </div>
+
+</body>
+
+</html>
