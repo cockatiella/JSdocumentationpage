@@ -1,0 +1,2 @@
+# JSdocumentationpage
+javascript doc page
